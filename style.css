@@ -7,6 +7,7 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 150px;
 }
 .half_width{
     width: 50%;
@@ -24,13 +25,38 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+    color: thistle;
+}
 .here_btn{
     text-decoration: none;
     font-weight: 700;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(lightsalmon, tomato);
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 24px;
+}
+
+.dream_section{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    display: flex;
+}
+.padding_left{
+    padding-left: 0px;
+    width: 35%;
+}
+.immm{
+    width: 46%;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
 }
