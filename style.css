@@ -6,8 +6,11 @@ body{
 section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    display: flex;
+    
     margin-bottom: 150px;
+}
+.flexible{
+    display: flex;
 }
 .half_width{
     width: 50%;
@@ -26,7 +29,7 @@ h2{
     font-size: 40px;
 }
 p{
-    color: thistle;
+    color: dimgray;
 }
 .here_btn{
     text-decoration: none;
@@ -59,4 +62,33 @@ a {
     color: white;
     border-radius: 5px;
     font-weight: 700;
+}
+.wrapper h1{
+    font-size: 30px;
+}
+.experience_area h1{
+    display: inline;
+}
+.shadow{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: 5%;
+    
+}
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+}
+.shadow h3{
+    color: orange;
+}
+#something{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
